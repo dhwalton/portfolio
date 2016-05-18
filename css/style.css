@@ -106,27 +106,9 @@ ul {
 	margin: 0 5%;
 }
 
-#project1 {
-	background-image: url(../images/th_about.jpg);
-	background-position:center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+.projects .content img {
 
-#project2 {
-	background-image: url(../images/th_hack_nyt.jpg);
-	background-position:center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
-
-#project3 {
-	background-image: url(../images/th_landingpage.jpg);
-	background-position:center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
 
 /* Footer Styling */
 .social {
@@ -188,13 +170,23 @@ ul {
 		margin: 0 0.5em;
 	}
 
+	.projects .content img {
+		width: 100px;
+		height: 100px;
+	}
+
 	.social .content li {
 		font-size: 1.5em;
 	}
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 751px) and (max-width: 1000px)  {
 	.projects .content li {
 		margin: 0 0.5%;
+	}
+
+	.projects .content img {
+		width: 200px;
+		height: 200px;
 	}
 }
