@@ -1,0 +1,200 @@
+/* Global */
+html {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+body {
+	color: #272F32;
+	background-color: #DAEAEF;
+	/*
+	background-image: url(../images/bricks_bw.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+
+}
+
+ul {
+	padding: 0;
+}
+
+/* General Content Typography & Styling */
+.content h1 {
+	font-family: 'Ultra', serif;
+	font-size: 4em;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	line-height: 3.5rem;
+	color: #B90D00;
+	text-shadow: 4px 4px 1px #eee;
+}
+
+.content h2 {
+	font-family: 'Stint Ultra Expanded', cursive;
+	font-size: 3em;
+	margin-top: -0.6em;
+	color: #666;
+}
+
+.content h3 {
+	font-family: 'Stint Ultra Expanded', cursive;
+	font-size: 2em;
+	line-height: 0.15rem;
+	color: #B90D00;
+}
+
+.content h4 {
+	font-family: 'Stint Ultra Expanded', cursive;
+	font-size: 1.5em;
+	line-height: 0.15rem;
+	color: #666;
+}
+
+.content p {
+	font-family: 'Slabo 13px', serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.masthead,
+.about,
+.projects,
+.social {
+	/*background-color: rgba(255,255,255,0.85);*/
+	overflow: auto;
+}
+
+/* Header Styling */
+.masthead {
+	padding: 3em 0;
+	background-color: #9DBDC6;
+}
+
+.masthead .content {
+	text-align: center;
+}
+
+
+/* About Section Styling */
+.about {
+	padding: 3em 3em 1.5em;
+	
+}
+
+.about .content {
+
+}
+
+/* Projects Section Styling */
+.projects {
+	padding: 1.5em 3em;
+}
+
+.projects .content {
+	
+}
+
+.projects .content  ul {
+	text-align: center;
+}
+
+.projects .content  li {
+	display: inline-block;
+	width: 13em;
+	height: 13em;
+	margin: 0 5%;
+}
+
+#project1 {
+	background-image: url(../images/th_about.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project2 {
+	background-image: url(../images/th_hack_nyt.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#project3 {
+	background-image: url(../images/th_landingpage.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* Footer Styling */
+.social {
+	background-color: #9DBDC6;	
+}
+
+.social .content {
+	text-align: center;
+}
+
+.social .content ul {
+
+}
+
+.social .content li {
+	display: inline-block;
+	width: 10%;
+	font-size: 3em;
+}
+
+.github a {
+	color: #272F32;
+}
+
+/* responsive */
+@media (max-width: 750px) {
+	.content h1 {
+		font-size: 3em;
+		line-height: 1em;
+	}
+
+	.content h2 {
+		font-size: 1.55em;
+		line-height: 1em;
+	}
+
+	.content h3 {
+		font-size: 1.25em;
+	}
+
+	.content h4 {
+		font-size: 1.1em;
+	}
+
+	.content p {
+		font-size: 1em;
+	}
+
+	.masthead,
+	.about,
+	.projects,
+	.social {
+		padding: 2em 1em;
+	}
+
+	.projects .content li {
+		width: 5.5em;
+		height: 5.5em;
+		margin: 0 0.5em;
+	}
+
+	.social .content li {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 1000px) {
+	.projects .content li {
+		margin: 0 0.5%;
+	}
+}

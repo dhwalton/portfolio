@@ -1,0 +1,125 @@
+/* Global */
+html {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+body {
+	background-color: #F3FFE2;
+}
+.masthead,
+.about, 
+.social, 
+.projects {
+	margin: 0.5%;
+}
+
+.masthead > div,
+.about    > div,
+.social   > div,
+.projects > div {
+	height: 14.7em;
+}
+
+/* Header */
+.masthead {
+	overflow: hidden;
+}
+
+.masthead-left {
+	/* background-color: #FF7C0F; */ /* orange */
+	/* box-shadow: inset 0 0 50px brown; /* box shadow for orange */
+	/* text-shadow: 5px 1px 5px brown; /* text shadow for orange */
+
+	background-color: #ACF0F2; /*  */
+	/*box-shadow: inset 0 0 50px #021867; /* box shadow for  */
+	text-shadow: 1px 1px 1px rgba(0,0,255,0.25); /* text shadow for  */
+	
+	width: 70%;
+	float:left;
+	text-align: center;
+	
+	color: #225378;
+	
+}
+
+.masthead-left > h1 {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 6em;
+	line-height: 1.8rem;
+	letter-spacing: -2px;
+}
+
+.masthead-left > h2 {
+	font-family: 'Vast Shadow', cursive;
+	font-weight: 400;
+	font-size: 3em;
+	line-height: 0.75rem;
+}
+
+.masthead-right {
+	/* background-color: #A7F40E; /* green */
+	/* box-shadow: inset 0 0 50px green; /* box shadow for green */
+	/* text-shadow: 2px 2px 2px #9AE06D; /* text shadow for green */
+
+	background-color: #EB7F00; /*  */
+	/*box-shadow: inset 0 0 50px #021867; /* box shadow for  */
+	text-shadow: 1px 1px 1px rgba(0,0,255,0.25); /* text shadow for  */
+
+	width: 29.5%;
+	float:right;
+	text-align: center;
+	color: #F3FFE2;
+	
+	
+}
+
+
+.masthead-right > p {
+	font-family: 'Oswald', sans-serif;
+	padding: 3em 2em 0 2em;
+}
+
+.masthead-right > h3 {
+	font-family: 'Playfair Display', Georgia, serif;
+	
+	font-size: 1.5em;
+	line-height: 0.1em;
+}
+
+.about {
+	/*
+	background-image: url(https://images.unsplash.com/photo-1435224668334-0f82ec57b605?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1553&h=1035&q=80);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	*/
+	overflow:hidden;
+}
+
+.about .content {
+	background-color: #225378;
+	/*box-shadow: inset 0 0 100px #000;*/
+	color: #fff;
+	padding: 1em;
+}
+
+.about .content > h2 {
+	font-family: 'Playfair Display', Georgia, serif;
+	font-size: 2em;
+	line-height: 1.8rem;
+}
+
+.about .content > p {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+}
+
+.projects .content {
+	/* background-color: #FF7C0F; /* orange */
+	background-color: #1695A3;
+}
+
+.social .content {
+	/* background-color: #A7F40E; /* green */
+	background-color: #EB7F00; /*  */
+}
